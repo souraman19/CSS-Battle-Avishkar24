@@ -1,0 +1,202 @@
+
+
+.outermost-box{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(241, 136, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-image: url('https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?w=900&t=st=1710269329~exp=1710269929~hmac=2ae6f496070b2f6a0eddcd0092cc4171cee423cffb63ef98d47a8895deceadf5');
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.outer-box{
+    height: 90%;
+    width: 90%;
+    background-color: aqua;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+.left-box{
+    width:70%;
+    background-color: rgb(192, 138, 236);
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.upper1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7rem;
+}
+.lower-left{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.head1{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.lower1{
+    text-align: center;
+    font-size: 1.5rem;
+    background: 2px solid rgb(192, 138, 236);
+    /* background-color: yellowgreen; */
+    margin: 5px;
+    padding: 0;
+    font-family: "Roboto Slab", serif;
+    /* font-weight: 1000; */
+}
+.lower2{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 5px;
+    padding: 0;
+    font-family: "Roboto Slab", serif;
+}
+.b1{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.lower3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    gap: 1rem;
+    margin-left: 4rem;
+}
+.lower3 input{
+    width: 30%;
+    height: 2.5rem;
+}
+.lower4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    gap: 1rem;
+    margin-left: 4rem;
+}
+.lower4 input{
+    width: 30%;
+    height: 2.5rem;
+}
+.lower5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin-left: 4rem;
+    
+}
+.lower5 input{
+    width: 63.2%;
+    height: 10rem;
+
+}
+.lower6{
+    margin-left: 4rem;
+   
+}
+.lower6 button{
+    width: 5rem;
+    height: 2rem;
+}
+.right-box{
+    width:30%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+.upper2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.right-lower{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem;
+    padding: 0rem;
+}
+.bb1{
+    font-family: "Roboto Slab", serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 0rem;
+    margin: 4rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+.bbb1{
+    margin: 0;
+    padding: 0;
+}
+.bbb11 h4{
+    margin: 0;
+    padding: 0;
+}
+.bbb12 h4{
+    margin: 0;
+    padding: 0;
+}
+
+.bbb1{
+    margin: 0;
+    padding: 0;
+}
+.bbb1{
+    margin: 0;
+    padding: 0;
+}
+.bb2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 0rem;
+    margin-left: 2rem;
+    width: 70%;
+}
+.bb2 i {
+    /* color: blue;  */
+}
+.bb2 .follow{
+    font-family: "Roboto Slab", serif;
+    margin: 0;
+    padding: 0;
+}
+.icons {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    gap: 1rem; 
+    margin-top: 0rem; 
+}
+
+.icons img {
+    width: 20px; 
+    height: 25px; 
+}
